@@ -10,9 +10,6 @@ chown -R postgres. "$PGDATA"
   su - postgres -c "initdb -D $PGDATA"
   sed -ri "s/^#(listen_addresses\s*=\s*)\S+/\1'*'/" "$PGDATA"/postgresql.conf
 
-  export PGUSER="postgres"
-  export PGDATABASE="postgres"
-
   userSql="ALTER USER postgres WITH SUPERUSER PASSWORD '$PGPASSWORD';"
   echo $userSql | su - postgres -c "postgres --single -D $PGDATA -jE"
 
