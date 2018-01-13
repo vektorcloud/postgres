@@ -1,4 +1,6 @@
 # postgres
+
+![circleci][circleci]
 Minimal postgresql image
 
 ## Usage
@@ -30,3 +32,5 @@ docker run -d --name=postgres \
            -v $(pwd):/dbscripts \
            quay.io/vektorcloud/postgres:latest
 ```
+
+[circleci]: https://img.shields.io/circleci/project/github/vektorcloud/postgres.svg "postgres"
