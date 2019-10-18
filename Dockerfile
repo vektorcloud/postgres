@@ -1,4 +1,4 @@
-FROM quay.io/vektorcloud/base:3.7
+FROM quay.io/vektorcloud/base:3.9
 
 RUN apk add --no-cache curl libpq postgresql-client postgresql postgresql-contrib
 
