@@ -33,4 +33,4 @@ docker run -d --name=postgres \
            quay.io/vektorcloud/postgres:latest
 ```
 
-[circleci]: https://img.shields.io/circleci/project/github/vektorcloud/postgres.svg "postgres"
+[circleci]: https://img.shields.io/circleci/build/gh/vektorcloud/postgres?color=1dd6c9&logo=CircleCI&logoColor=1dd6c9&style=for-the-badge "postgres"
