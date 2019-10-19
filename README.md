@@ -1,6 +1,6 @@
 # postgres
 
-![circleci][circleci]
+[![circleci][circleci]](https://circleci.com/gh/vektorcloud/postgres)
 Minimal postgresql image
 
 ## Usage
